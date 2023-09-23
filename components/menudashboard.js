@@ -3,7 +3,6 @@ import React from 'react';
 const DashboardMenu = () => {
   return (
     <body>
-      <section className="perfil">
         <div className="bg-gray-800 w-64 h-screen text-white">
           <div className="p-4">
             <h1 className="text-2xl font-semibold mb-4">Perfil</h1>
@@ -17,9 +16,15 @@ const DashboardMenu = () => {
             <li className="px-4 py-2 hover:bg-gray-700">Editar perfil</li>
             {/* Add more options as needed */}
           </ul>
+
+          <ul className="menu bg-base-200 w-56 rounded-box">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+          <li><a>Item 3</a></li>
+        </ul>
         </div>
-    </section>
-  </body>
+        
+    </body>
   );
 };
 
