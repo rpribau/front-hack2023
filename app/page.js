@@ -1,13 +1,14 @@
 import React from 'react';
 import Dashboard from '@/components/menudashboard';
 import Chatbot from '@/components/chat';
+import DocView from './documentView';
 
 const Home = () => {
   return (
     <body>
       <div className="flex">
-        <Dashboard />
-        <Chatbot />
+  
+        <DocView />
       </div>
     </body>
   );
