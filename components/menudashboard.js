@@ -2,8 +2,7 @@ import React from 'react';
 
 const DashboardMenu = () => {
   return (
-    <>
-     <div className="bg-#1D0054 w-64 h-screen text-white">
+     <div className="sidebar">
           <div className="p-4">
             <h1 className="text-2xl font-semibold mb-4">Perfil</h1>
             <div className="empty-circle"></div>
@@ -25,17 +24,9 @@ const DashboardMenu = () => {
             <button className="btn">Costos</button>
             <button className="btn">Productividad</button>
             <button className="btn">Calidad</button>
-
         </div>
-
         </div>
     </div>
-    </>
-       
-          
-        
-     
-    
   );
 };
 

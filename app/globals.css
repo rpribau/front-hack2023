@@ -18,7 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background-color: #110427(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
@@ -61,4 +61,13 @@ body {
   justify-content: space-between;
 }
 
-
+.sidebar {
+  height: 80vh;
+  width: 20%;
+  margin: 0 auto; /* Center the sidebar horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1D0054; 
+ 
+}
