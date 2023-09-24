@@ -1,6 +1,8 @@
 import React from 'react';
 
 const DashboardMenu = () => {
+  <script src="script.js"></script>
+
   return (
     
      <div className="sidebar">
@@ -10,8 +12,10 @@ const DashboardMenu = () => {
           </div>    
         <div className="flex flex-col w-full">
           <ul className="space-y-0 mt-1 profile-font">
-            <li className="px-4 py-2 hover:bg-gray-700">ID</li>
-            <li className="px-4 py-2 hover:bg-gray-700">Puesto</li>
+            <li className="px-4 py-2 hover:bg-gray-700">ID
+          
+            </li>
+            <li className="px-4 py-2 hover:bg-gray-700">Puesto <p id = "userID"> </p></li>
             <li className="px-4 py-2 hover:bg-gray-700">Correo</li>
             <li className="px-4 py-2 hover:bg-gray-700">Editar perfil</li>
           </ul>
