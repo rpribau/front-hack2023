@@ -1,8 +1,15 @@
-import React from 'react';
+"use client";
+
+
+import React, { useState } from 'react';
 
 const Chatbot = () => {
-    
-<script src="script.js"></script>
+
+const [message, setMessage] = useState('');
+
+const handleChange = (event) => {
+    setMessage(event.target.value);
+};
   return (
     <div className="chatbot-container">
         <div className="chat chat-start">
@@ -44,6 +51,10 @@ const Chatbot = () => {
 
     </div>
   );
+
+
+
+
 };
 
 export default Chatbot;
