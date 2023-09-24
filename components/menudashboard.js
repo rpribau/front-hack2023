@@ -2,7 +2,7 @@ import React from 'react';
 
 const DashboardMenu = () => {
   return (
-    <body>
+ <>
         <div className="bg-gray-800 w-64 h-screen text-white">
           <div className="p-4">
             <h1 className="text-2xl font-semibold mb-4">Perfil</h1>
@@ -23,8 +23,34 @@ const DashboardMenu = () => {
           <li><a>Item 3</a></li>
         </ul>
         </div>
+        <div class="flex flex-col w-full">
+          
+
+          <div class="flex ...">
+                        <div class="flex-none w-14 h-14 ...">
+                        
+                        </div>
+                        <div class="grow h-14 ...">
+                        <input type="text" placeholder="Type here" className="input input-bordered w-full allign center" />
+
+                        </div>
+                        <div class="flex-none w-14 h-14 ...">
+                        <button className="btn btn-xs sm:btn-sm padding">Send</button>
+
+                        </div>
+        </div>
+      
+      
+      
+      
+      
+      </div>
+
+
+        </>
         
-    </body>
+        
+
   );
 };
 
