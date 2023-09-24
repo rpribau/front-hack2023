@@ -7,7 +7,6 @@ const Home = () => {
       <div className="flex">
         <DashboardMenu />
         {/* Aquí puedes colocar el contenido principal de tu dashboard */}
-      
       </div>
 
   );
