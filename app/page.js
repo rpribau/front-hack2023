@@ -1,14 +1,12 @@
 import React from 'react';
-import DashboardMenu from '../components/menudashboard';
+import LoginPage from '@/components/login';
 
 const Home = () => {
   return (
-
-      <div className="flex">
-        <DashboardMenu />
-        {/* Aquí puedes colocar el contenido principal de tu dashboard */}
-      </div>
-
+    <div className="flex">
+      <DashboardMenu />
+      <LoginPage />
+    </div>
   );
 };
 
