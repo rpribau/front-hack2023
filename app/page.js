@@ -4,6 +4,7 @@ import LoginPage from '@/components/login';
 const Home = () => {
   return (
     <div className="flex">
+      <DashboardMenu />
       <LoginPage />
     </div>
   );

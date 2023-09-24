@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.empty-circle {
+  width: 100px; /* Adjust the width and height as needed for your design */
+  height: 100px;
+  background-color: #ccc; /* Color of the circle */
+  border-radius: 50%; /* Makes it a circle */
+  margin: 0 auto; /* Center the circle horizontally */
+}
+
+.btn {
+  width: 200px; /* Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+  font-family: 'Verdana', sans-serif; /* Replace 'Your Font Name' with the actual font you want to use */
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: normal; /* Adjust the font weight as needed (e.g., normal, bold) */
+}
+
+.profile-font {
+  font-family: 'Verdana', sans-serif; /* Replace 'Your Font Name' with the actual font you want to use */
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: normal; /* Adjust the font weight as needed (e.g., normal, bold) */
+  /* Add any other font-related CSS properties you want */
+}
+
