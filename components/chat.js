@@ -26,7 +26,17 @@ const Chatbot = () => {
             </div>
             <div className="chat-bubble">I hate you!</div>
             </div>
-        <button>Send</button>
+            <div class="flex ...">
+                            
+                            <div class="grow h-14 ...">
+                            <input type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w" />
+                            </div>
+                            <div class="flex-none w-20%">
+                            <button className="btn btn-outline btn-primary w-full margin-auto">Send</button>
+
+                            </div>
+                            </div>
+
     </div>
   );
 };
