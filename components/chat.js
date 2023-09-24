@@ -28,11 +28,15 @@ const Chatbot = () => {
             </div>
             <div className="chat-bubble">Me puedes dar el KPI de calidad en Marzo 2023</div>
         </div>
+
+        
         <div class="flex">
             <div class="grow h-1">
                 <input name="prompt" type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w" />
                 
             </div>
+
+            
             <div class="flex-none w-20%">
                 <button className="btn margin-auto w-10% h-10%">Send</button>
             </div>
