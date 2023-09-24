@@ -56,7 +56,7 @@ body {
 
 /* CSS to make the chatbot take up more space */
 .chatbot-container {
-  height: 110vh ; /* Adjust the height as needed */
+  height: 100vh; /* Adjust the height as needed */
   width: 80%; /* Adjust the width as needed */
   margin: 0 auto; /* Center the chatbot horizontally */
   display: flex;
@@ -65,7 +65,7 @@ body {
 }
 
 .sidebar {
-  height: 110vh;
+  height: 100vh;
   width: 20%;
   margin: 0 auto; /* Center the sidebar horizontally */
   display: flex;
@@ -75,7 +75,6 @@ body {
 }
 
 .bodyB {
-
   height: 100%;
   width: 100%;
   background-color: #110427;
