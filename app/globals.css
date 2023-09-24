@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-color: #110427;
 }
 
 .empty-circle {
@@ -36,10 +37,11 @@ body {
 
 .btn {
   width: 200px; /* Adjust the width as needed */
-  height: 70px; /* Adjust the height as needed */
+  height: 15px; /* Adjust the height as needed */
   font-family: 'Verdana', sans-serif; /* Replace 'Your Font Name' with the actual font you want to use */
   font-size: 20px; /* Adjust the font size as needed */
   font-weight: normal; /* Adjust the font weight as needed (e.g., normal, bold) */
+  margin: auto;
 }
 
 .profile-font {
@@ -48,4 +50,15 @@ body {
   font-weight: normal; /* Adjust the font weight as needed (e.g., normal, bold) */
   /* Add any other font-related CSS properties you want */
 }
+
+/* CSS to make the chatbot take up more space */
+.chatbot-container {
+  height: 80vh; /* Adjust the height as needed */
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the chatbot horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 

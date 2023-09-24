@@ -1,12 +1,15 @@
 import React from 'react';
-import LoginPage from '@/components/login';
+import Dashboard from '@/components/menudashboard';
+import Chatbot from '@/components/chat';
 
 const Home = () => {
   return (
-    <div className="flex">
-      <DashboardMenu />
-      <LoginPage />
-    </div>
+    <body>
+      <div className="flex">
+        <Dashboard />
+        <Chatbot />
+      </div>
+    </body>
   );
 };
 
